@@ -46,7 +46,6 @@ $(function () {
     secsRemaining = totalSeconds - (minsRemaining * 60);
     //change the HTML to show new minutes and seconds
     $("#minutes").html((minsRemaining < 10 ? '0' : '') + minsRemaining + ' ');
-    console.log((secsRemaining < 10 ? '0' : '') + secsRemaining);
     $("#seconds").html((secsRemaining < 10 ? '0' : '') + secsRemaining);
     if (totalSeconds == 0) {
       timerDone = true;
