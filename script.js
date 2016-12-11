@@ -13,7 +13,13 @@ var secsRemaining;
 var messi;
 //  ========= ==================
 
+
+
 $(function () {
+  $("button").mouseup(function(){
+    $(this).blur();
+  })
+  
   //  'PAUSE' CLICK HANDLER ==================
   $("#pausy").click(function () {
     if (!startedTimer) {
