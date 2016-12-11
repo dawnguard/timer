@@ -4,7 +4,7 @@ var isPaused = true;
 var timerDone = false;
 var sound = new Howl({
   src: ['17 allahu akbar.ogg']
-  , loop: true
+  , loop: true, autoSuspend: false, buffer: false
 });
 var minutes;
 var totalSeconds;
@@ -16,7 +16,7 @@ var messi;
 
 
 $(function () {
-  $("button").mouseup(function(){
+  $("button").click(function(){
     $(this).blur();
   })
   
