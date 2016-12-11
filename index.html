@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Timer</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.6/components/input.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.6/components/button.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.6/components/icon.min.css" />
+  <link href="style.css" rel="stylesheet" type="text/css">
+  
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.0.1/howler.core.min.js"></script>
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <div class="flexbox-container">
+    <div id="timer">
+      
+    </div>
+    <br>
+    <div>
+      <button id = "pausy" class="ui big icon button"><i class="play icon"></i></button>
+      <button id = "refresh" class="ui big icon button"><i class="refresh icon"></i></button>
+    </div>
+    <br>
+    <p>Session Length <input id="sessionLength" type="number" value="20"> minutes</p>
+  </div>
+  <div id="invisibleSoundPlayer"></div>
+</body>
+</html>
