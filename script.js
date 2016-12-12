@@ -3,7 +3,7 @@ var startedTimer = false;
 var isPaused = true;
 var timerDone = false;
 var sound = new Howl({
-  src: ['17 allahu akbar.ogg']
+  src: ['sound.mp3']
   , loop: true, autoSuspend: false, buffer: false
 });
 var minutes;
