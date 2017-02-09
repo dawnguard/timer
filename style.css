@@ -63,3 +63,12 @@ input {
 button {
   display: inline-block;
 }
+
+
+#timer {
+  margin-bottom: 16px;
+}
+
+#buttons {
+  margin-bottom: 16px;
+}

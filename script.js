@@ -57,7 +57,7 @@ $(function () {
       timerDone = true;
       console.log('ok');
       sound.play();
-      $('#pausy').html('<i class="stop icon"></i>')
+      $('#pausy').html('<i class="stop icon"></i>');
       stahp();
     }
     if (!isPaused) {
